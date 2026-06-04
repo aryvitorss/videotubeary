@@ -5,7 +5,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 ## INFO - projeto videotubeary
 
 ![O Projeto](src/assets/youtubeary_1.png)
-![O Projeto2](src/assets/youtubeary_2_video.png)
+![O Projeto2](src/assets/youtubeary_2_video.mp4)
 
 ## SOBRE O PROJETO:
 Criação de página web para exibição de vídeos com front-end em angular 20;
