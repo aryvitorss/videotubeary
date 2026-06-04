@@ -1,0 +1,34 @@
+<div class="imagemsobre">
+    <div class="video-player">
+    <div class="video-container">
+
+          <iframe [src]="urlSafe"
+            sandbox="allow-scripts allow-same-origin allow-presentation"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"
+            title="Player de vídeo"
+            allowfullscreen>
+          </iframe>
+          <br><br>
+          <p>
+            <img style=" width: 30%; height: 30px;" src="../../assets/logo_mistral_200_3.gif" title="logo"/>
+          </p>
+    </div>
+        <div id="videoList">
+            @for ( video of videos; track video) {
+              <div key="video.id" (click)="chooseVideo(video)" class="thumbnail">
+                    <div class="thumbnail-img">
+                        <img src="{{video.thumbnail}}" title="{{video.title}}"/>
+                          <div class="thumbnail-info">
+                            <h3>{{video.title}}</h3>
+                            <p>{{video.creator}}</p>
+                          </div>
+                    </div>
+              </div>
+            }
+    </div>
+    <br/>
+    <br/>
+  </div>
+</div>

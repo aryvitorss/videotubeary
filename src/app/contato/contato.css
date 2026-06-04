@@ -1,0 +1,23 @@
+
+.footercontatocopyright{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+   font-size: x-small;
+
+  background-color: black; color:  whitesmoke;
+}
+
+.footercontatocopyright p {
+  margin: 0;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

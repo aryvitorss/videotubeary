@@ -1,0 +1,127 @@
+.thumbnail {
+  display: flex;
+}
+
+.thumbnail img {
+  width: 168px;
+  border-radius: 5px;
+}
+
+.thumbnail-info {
+  margin-left: 20px;
+  font-size: x-small;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.thumbnail h3 {
+  font-size: 16px;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnail-views {
+  font-size: 14px;
+}
+
+.video-player {
+  display: flexbox;
+}
+
+.video-container {
+  margin-right: 5px;
+  margin-left: 1%;
+  display:inline-flexbox;
+}
+
+.row {
+  display: inline-flex;
+}
+
+#videoList {
+   margin-left: 10%;
+  width: 80%;
+  height: 180px;
+  overflow-y: auto;
+  overflow-x: scroll;
+  display: inline-flex;
+
+}
+
+.centralizado {
+  text-align: center;
+}
+.controle {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+
+}
+.controle label {
+  display: block;
+  font-weight: bold;
+}
+
+.controle label + input, .controle textarea {
+  width: 100%;
+  font-size: inherit;
+  border-radius: 5px
+}
+
+.centralizado {
+  text-align: center;
+}
+
+.erro {
+  color: red;
+}
+
+.image-container{
+position: relative;
+border: 1px solid;
+}
+
+.sobreposta-imagem{
+  position: absolute;
+  z-index: 1;
+  background-image: url('../../assets/fotofundo.jpg');
+  background-size: 80%;
+}
+
+.imagemsobre{
+  background-image: url('../../assets/fotofundo2.gif');
+  background-size:contain;
+  background-position-x: -8%;
+  background-repeat: no-repeat;
+  margin-bottom: -15px;
+}
+
+.imagemsobre:hover{
+  background-blend-mode: multiply,hard-light;
+  background-image: url('../../assets/fotofundo2.gif'), url('../../assets/logo_mistral_200_3.gif') ;
+  background-color: blue;
+  transition: 10s;
+}
+
+.imagemsobre:not(hover){
+  background-blend-mode: multiply,hard-light;
+  transition: 5s;
+}
+
+.imagemsobre:has(.imagemsobre:hover) .imagemsobre:not(hover){
+  filter: blur(54px);
+}
+
+iframe{
+  border-radius: 2% 2% 2% 2%;
+  width: 70%;
+  margin-left: 14%;
+  margin-right: 0%;
+  margin-bottom:-18px;
+  height: 480px;
+}
+
+
