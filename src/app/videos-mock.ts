@@ -4,45 +4,45 @@ export const VIDEOS: Video[] = [
 
   {
     id: 1,
-    title: "Ela perde Alinha - Funk RJ - Aryzinho - Ary Vitor Dos Anjos",
-    thumbnail: "https://img.youtube.com/vi/cQD1RvX4N9I/sddefault.jpg",
-    youtubeURL: "https://www.youtube.com/embed/cQD1RvX4N9I",
+    title: "CENA 1 - A VIDA DE JÔ",
+    thumbnail: "https://img.youtube.com/vi/wV8XGFPM8z0/sddefault.jpg",
+    youtubeURL: "https://www.youtube.com/embed/wV8XGFPM8z0",
     creator: "Aryzinho - Ary Vitor Dos Anjos",
     likes: 0,
     views: 0
   },
   {
     id: 2,
-    title: "A Famosa - FUNK RJ - Aryzinho - Ary Vitor Dos Anjos",
-    thumbnail:"https://img.youtube.com/vi/3vGLEMTNfO4/sddefault.jpg",
-    youtubeURL: "https://www.youtube.com/embed/3vGLEMTNfO4",
+    title: "CENA 2 - O PECADO E MAL",
+    thumbnail:"https://img.youtube.com/vi/oK_M18mX1eU/sddefault.jpg",
+    youtubeURL: "https://www.youtube.com/embed/oK_M18mX1eU",
     creator: "Aryzinho - Ary Vitor Dos Anjos",
     likes: 0,
     views: 0
   },
   {
     id: 3,
-    title: "Aryzinho - Ary Vitor Dos Anjos - Canta Retalhos de Cetim",
-    thumbnail:"https://img.youtube.com/vi/5QKN_sbG2Wc/sddefault.jpg",
-    youtubeURL: "https://www.youtube.com/embed/5QKN_sbG2Wc",
+    title: "CENA 3 - O SOFRIMENTO DE JÔ",
+    thumbnail:"https://img.youtube.com/vi/pPBdYQR1PkQ/sddefault.jpg",
+    youtubeURL: "https://www.youtube.com/embed/pPBdYQR1PkQ",
     creator: "Aryzinho - Ary Vitor Dos Anjos",
     likes: 0,
     views: 0
   },
   {
     id: 4,
-    title: "Um vinhozinho e um champagne FUNK",
-    thumbnail:"https://img.youtube.com/vi/KT7yWvcDzGM/sddefault.jpg",
-    youtubeURL:"https://www.youtube.com/embed/KT7yWvcDzGM",
+    title: "CENA 4 - OS DONS DE DEUS",
+    thumbnail:"https://img.youtube.com/vi/rswzOLBHTCw/sddefault.jpg",
+    youtubeURL:"https://www.youtube.com/embed/rswzOLBHTCw",
     creator: "Aryzinho - Ary Vitor Dos Anjos",
     likes: 0,
     views: 0
   },
   {
     id: 5,
-    title: "REBOLADINHA Funk Rio - Aryzinho - Ary Vitor Dos Anjos",
-    thumbnail: "https://img.youtube.com/vi/nsYYlu5deuE/sddefault.jpg",
-    youtubeURL: "https://www.youtube.com/embed/nsYYlu5deuE",
+    title: "CENA 5 - JÔ E UMA VIDA NOVA",
+    thumbnail: "https://img.youtube.com/vi/2VwQUKDDCUU/sddefault.jpg",
+    youtubeURL: "https://www.youtube.com/embed/2VwQUKDDCUU",
     creator: "Aryzinho - Ary Vitor Dos Anjos",
     likes: 0,
     views: 0
